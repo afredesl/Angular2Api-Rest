@@ -1,0 +1,105 @@
+body{
+  font-family: Helvetica, Arial;
+}
+.clearfix{
+  float: none;
+  clear: both;
+  text-decoration: none;
+  list-style: none;
+}
+#content{
+  width: 80%;
+  min-height: 500px;
+  margin: 0px auto;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 5px #ddd;
+}
+header {
+  padding: 15px;
+  background: #229138;
+}
+
+header h1, header p{
+  margin: 0px;
+  margin-left: 15px;
+  color: white;
+}
+header .title-subtitle{
+  float: left;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  color: white;
+  padding: 20px;
+  padding-left: 0px;
+}
+header p{
+  color: #eee;
+}
+header #logo{
+  width: 71px;
+  display: block;
+  float: left;
+  margin-top: 8px;
+}
+
+#favoritos-list{
+  padding: 0px;
+  margin: 0px;
+}
+
+.favorito-item{
+  list-style: none;
+  width: 31%;
+  border:  1px solid #ddd;
+  float: left;
+  height: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: grey;
+  background: white;
+  margin: 10px;
+}
+
+.content-data{
+  float: left;
+  margin-left: 20px;
+}
+footer{
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 20px;
+  color: grey;
+}
+
+.btn {
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-color: #1976D2;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px #ddd;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  background: #0074d9;
+  cursor: pointer;
+}
+
+.btn-editar{
+  background: #0A0;
+  border-color:  #59a600;
+
+}
+.btn-eliminar{
+  background: #e23237;
+  border-color:  #F54747;
+
+}
+.btn-default{
+  background: #eaa615;
+  border-color:  #cc941c;
+  color: white;
+  margin-left: 0px;
+
+}
